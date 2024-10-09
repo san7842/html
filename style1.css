@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  list-style-type:none;
+  padding:20px;
+  background-color: black;
+
+}
+.nav li img {
+    width:100px;
+
+}
+.nav li ul{
+
+    display:flex;
+    list-style-type: none;
+}
+.nav li ul li a{
+ class:fa-solid fa-house;
+    text-decoration: none;
+    margin:20px;
+    color:yellow;
+}
+.san{
+    width:400px;
+    height:20px;
+   background-color:cornflowerblue);
+   
+}
+.san1{
+    width:80px;
+    background-color:blue
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+*{
+    font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aquamarine;
+} 
+.navbar article{
+    display: flex;
+}
+.navbar article div{
+    margin:10px;
+    border: none;
+}
+.navbar article .free::after{
+    content: "Learn More";
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    margin-left: 5px;
+    padding: 0px 10px 0px 10px;
+}
+.navbar1{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+.navbar1 article {
+    display: flex;
+}
+.navbar1 article div{
+    margin: 10px;
+}
+.navbar1 article .free1{
+    align-items:left ;
+    
+   
+}
+.navbar2{
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: antiquewhite;
+}
+.free2{
+    width: 400px;
+}
+.navbar3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar3 footer {
+    display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color:blue;
+  color: aqua;
+  width:400px;
+  height: 80px;
+}
+
