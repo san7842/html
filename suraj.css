@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@900;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+    background-color:black;
+}
+
+
+
+
+.navbar article{
+    display: flex;
+}
+
+.navbar article div{
+    margin: 10px;
+}
+
+.navbar article div a{
+       color: white;
+}
+
+
+.midnavbar  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.midnavbar article{
+    display: flex;
+}
+
+.midnavbar article div{
+    margin: 20px;
+}
+
+.hero article .head{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    text-align: center ;
+    font-size: 40px;
+}
+.sect{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maincard{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+.card{
+   margin: 20px;
+   
+}
+
+.card .cardimage{
+    width: 280px;
+    height: 280px;
+    background-image: url('./ad1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.card .cardimage1{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .cardimage2{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .cardimage3{
+    width: 280px;
+    height: 280px;
+    background-image: url("./ad4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/*.hero1{
+
+    align-items: center;
+}*/

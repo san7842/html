@@ -1,0 +1,20 @@
+.card article{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 20px;
+    /*border-radius: 50px;*/
+    box-shadow: 0px 0px 30px 3px blue);
+    /*!----=====x y blur spread color*====---*/
+    border-radius: 5px;
+    border:2px dotted black;
+    /*!----=====pixel ,style, color====---*/
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content:space-evenly ;
+}
+.caard article{
+    img
+}

@@ -4,10 +4,31 @@
 *{
     font-family: "Afacad Flux", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
+}
+._4option div{
+    width: 60px;
+    height: 60px;
+    background-color: darkgoldenrod;
+    margin: 20px;
+}
+._4option{
+    position: fixed;
+    right:0px;
+    top:200px;
+}
+#phoneicon{
+    background-color: black;
+    color: blue;
+    border: radius 50px; 
+    padding:20px;
+    font-size: 20px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
 }
 .navbar{
     display: flex;
@@ -30,6 +51,8 @@
     margin-left: 5px;
     padding: 0px 10px 0px 10px;
 }
+
+
 .navbar1{
     display: flex;
     justify-content:space-between ;
@@ -40,12 +63,19 @@
     display: flex;
 }
 .navbar1 article div{
+    border: none;
     margin: 10px;
 }
 .navbar1 article .free1{
     align-items:left ;
     
+    
    
+}
+.navbar1 .free1{
+    background-color: rgb(232, 231, 231);
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
 }
 .navbar2{
     display: flex;
@@ -53,8 +83,9 @@
    align-items: center;
    background-color: antiquewhite;
 }
+
 .free2{
-    width: 400px;
+    width: 100px;
 }
 .navbar3{
     display: flex;
