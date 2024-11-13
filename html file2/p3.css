@@ -1,0 +1,48 @@
+*{
+    
+}
+/* ========================navbar==================== */
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.navbar article{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.navbar1 div{
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px;
+}
+.navbar article div a{
+    text-decoration: none;
+}
+.navbar2{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+/* ===============================midnav================== */
+.midnav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+    background-color: dodgerblue;
+    background-size: cover;
+}
+.midnav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.midnav1 div{
+    margin: 10px;
+    padding: 10px;
+}

@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 ._4option div{
     width: 40px;
@@ -32,7 +33,7 @@
     background-color: darkgoldenrod;
     margin: 20px;
 }
-
+/* ==================navbar============================== */
 .navbar {
     display: flex;
     justify-content:space-between;
@@ -43,6 +44,7 @@
 .nav0{
     width: 200px;
 }
+
 .search{
     display: flex;
     width:400px;
@@ -82,6 +84,7 @@
     margin:20px;
 
 }
+/* =========================navbar2==================================== */
 .navbar2{
     display: flex;
     justify-content: space-between;
@@ -110,6 +113,7 @@
     padding: 3px;
     
 }
+/* =========================midnav============================== */
 .midnav{
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -136,6 +140,7 @@
     scale: 1.2;
     transition: scale 0.5;
 }
+/* ===================================secondmid============================== */
 .secondmid{
     height: 500px;
     background-image: url(https://th.bing.com/th/id/OIP.dKosBnUC-rTo-QCUmMHKRQHaE8?rs=1&pid=ImgDetMain);
@@ -168,16 +173,18 @@
 .sd3{ width: 200px;
     height: 200px;
 }
-.bottom{
+/* ============================thirdmid=========================== */
+.thirdmid{
     height:1400px ;
 
 }
-#bottom{
+#thirdmid{
     width:800;
     height: 2px;
     border-color: blue;
 }
-.bottom div{
+.thirdmid div{
+    justify-content: center;
     margin: 5px;
     padding: 5px;
 }
@@ -223,6 +230,7 @@
     width: 250px;
     height: 200px;
 }
+/* =================hero===================================== */
 .hero{
     background-image: url(https://files.123freevectors.com/wp-content/original/121377-light-grey-abstract-texture-background.jpg);
     background-size: cover;
@@ -234,6 +242,7 @@
     margin: 5px;
     padding: 5px;
 }
+/* =====================herous============================= */
 .herous{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
@@ -247,11 +256,14 @@
     margin: 5px; 
     padding:5px;
 }
+/* =====================herou================================= */
 .herou{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     justify-content: center;
-    height: 400px;
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
 }
 .herou article div{
     justify-content: center;
@@ -262,23 +274,30 @@
     margin: 5px;
     padding: 5px;
 }
+/* ==============herou2========================== */
 .herou2{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
     height: 200px;
+    margin: 5px;
+    padding: 5px;
 }
 .herou2 img{
-    width:200px ;
+    width:220px ;
     height:100px ;
-    margin: 10px;
+    margin: 5px;
      padding: 5px;
 
 }
-.bottom2{
+/* =================bottom=================================== */
+.bottom{
     height: 200px;
     background-image: url(https://th.bing.com/th?id=OIP.WGExOnYvi6EcJlDogrqQuQHaE9&w=305&h=204&c=8&rs=1&qlt=90&o=6&cb=13&dpr=1.3&pid=3.1&rm=2);
     background-size: cover;
 }
-.bottom3{
+/* ============bottom2=========================================== */
+.bottom2{
     display: flex;
     justify-content: space-between;
     align-items: center;
