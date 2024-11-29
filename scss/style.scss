@@ -1,0 +1,28 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    // background-image: url(https://static.vecteezy.com/system/resources/previews/004/242/985/original/abstract-luxury-shiny-dark-blue-background-with-lines-golden-glowing-free-vector.jpg);
+    background-size: cover;
+
+}
+    
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+
+
+}
+#main div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h{
+    color: red;
+    
+}
