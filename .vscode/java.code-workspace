@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "java",
+			"path": ".."
+		},
+		{
+			"name": "task project",
+			"path": "../../task project"
+		},
+		{
+			"name": "html",
+			"path": "../../html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "java"
+	}
+}
